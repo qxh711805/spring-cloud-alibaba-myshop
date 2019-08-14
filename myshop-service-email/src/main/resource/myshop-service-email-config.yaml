@@ -17,11 +17,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.10.151:8848
+        server-addr: 127.0.0.1:8848
     sentinel:
       transport:
         port: 8719
-        dashboard: 192.168.10.151:8080
+        dashboard: 127.0.0.1:8080
 
 server:
   port: 9507

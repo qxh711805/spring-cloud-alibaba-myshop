@@ -8,7 +8,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication(scanBasePackages = "com.funtl.myshop", exclude = {DataSourceAutoConfiguration.class})
 @EnableDiscoveryClient
-
 @EnableFeignClients
 public class MyShopServiceConsumerItemApplication {
     public static void main(String[] args) {
